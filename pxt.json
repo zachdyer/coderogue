@@ -1,0 +1,31 @@
+{
+    "name": "coderogue",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "FastRandomBlocks": "github:unsignedarduino/fast-random-blocks#8c985a77e5c4278e43a7bc375db095c67afb58ed",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.12.0",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.10.36",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
